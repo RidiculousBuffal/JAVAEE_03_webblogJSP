@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(to right, #65CBF7, #B3A5FC);
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    font-family: "CMU Concrete", "Times New Roman";
+}
+
+dialog {
+    width: 70%;
+    height: 75vh;
+    padding: 12px 20px;
+    border: 2px dashed #ccc;
+    background-color: aliceblue;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+
+
+dialog #user {
+    font-style: italic;
+    color: cadetblue;
+
+}
+
+#title {
+    height: 20px;
+    padding-left: 5px;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    outline: none;
+    border-bottom: 3px solid #B3A5FC;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+dialog #blogContent {
+    width: 100%;
+    height: 60vh;
+    padding: 12px 20px;
+
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 32px;
+    resize: none;
+}
+
+.btn {
+    background: linear-gradient(to right, #65CBF7, #B3A5FC);
+    color: #9c3493;
+    border: none;
+    font-weight: bold;
+    height: 46px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.wrap {
+    width: 720px;
+    margin: 15px auto;
+    padding: 15px 10px;
+    background: white;
+    border: 2px solid #DBDBDB;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.title, .userName {
+    font-weight: 700;
+}
+
+.post {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.post .title {
+    font-style: italic;
+}
+
+.post .body {
+    margin-top: 5px;
+}
+.blogs {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.blogs h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blogs p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.blogs hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.blogs .author-info {
+    font-size: 14px;
+    color: #888;
+}
